@@ -98,7 +98,7 @@ a.team-member-position {
 }
 
 .wrap-team-members > div > img {
-    border-radius: 50% 50% 45% 45%;
+    border-radius: 60% 65% 50% 50% / 75% 75% 50% 50%;
     display: block;
     background-color: var(--light);
     margin: 2em auto;
