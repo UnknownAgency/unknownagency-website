@@ -29,7 +29,7 @@ const BannerCtaProgetto = () => {
                 <h4>più</h4>
                 <h4>sul</h4>
                 <h4>vostro</h4>
-                <h4>progetto ++</h4>
+                <h4>progetto +</h4>
             </div>
         </section>
     )
