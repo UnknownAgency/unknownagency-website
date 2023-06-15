@@ -1,11 +1,11 @@
 "use client"
-
 import { useState } from "react";
 
 import FilterMember from "./filter-member";
 import TeamMember from "./team-member";
 import './team.scss';
-import Header from "@/app/header";
+import '../../template/template.scss'
+import BannerCtaProgetto from "@/app/template/banner-cta-progetto";
 
 const teamMembers = [
     {
@@ -136,19 +136,20 @@ export default function Team() {
 
     const handleFilterChanged = (filter) => {
         setCurrentFilter(filter);
-    };    
+    };
 
     return(
         <main className="root-page page-team">
-            <h1 className="title">Dream team</h1>
+            <h1 className="title wrapper-boxed">Dream team</h1>
             <FilterMember onFilterChanged={handleFilterChanged} />
-            <div className="wrap-team-members">
+            <div className="wrap-team-members wrapper-boxed">
                 {teamMembers
                     .filter((member) => currentFilter === "all" || member.subteam === currentFilter)
                     .map((member) => (
                         <TeamMember key={member.name} member={member} />
                     ))}
             </div>
+            <BannerCtaProgetto />
         </main>
     )
 }

@@ -6,13 +6,15 @@
       "/Users/lorenzo.cavicchioli/Develop/unknownagency-website/app/globals.scss"
     ],
     "/Users/lorenzo.cavicchioli/Develop/unknownagency-website/app/chi-siamo/team/page.jsx": [
-      "/Users/lorenzo.cavicchioli/Develop/unknownagency-website/app/chi-siamo/team/team.scss"
+      "/Users/lorenzo.cavicchioli/Develop/unknownagency-website/app/chi-siamo/team/team.scss",
+      "/Users/lorenzo.cavicchioli/Develop/unknownagency-website/app/template/template.scss"
     ]
   },
   "cssModules": {
     "/Users/lorenzo.cavicchioli/Develop/unknownagency-website/app/chi-siamo/team/page": [
       "/Users/lorenzo.cavicchioli/Develop/unknownagency-website/app/globals.scss",
-      "/Users/lorenzo.cavicchioli/Develop/unknownagency-website/app/chi-siamo/team/team.scss"
+      "/Users/lorenzo.cavicchioli/Develop/unknownagency-website/app/chi-siamo/team/team.scss",
+      "/Users/lorenzo.cavicchioli/Develop/unknownagency-website/app/template/template.scss"
     ]
   }
 }

@@ -264,16 +264,53 @@
   --radius-egg: 60% 65% 50% 50% / 75% 75% 50% 50%;
   --ar-egg: 5 / 7;
   --radius-circle: 50%;
+  --size1: 200px;
+  --size2: 150px;
+  --size3: 100px;
+  --size4: 60px;
+  --size5: 32px;
+  --size6: 20px;
+  --size-normal: 18px;
+  --width-boxed: min(90%, 1170px);
 }
 
 body {
   font-family: var(--font1);
   margin: 0;
   padding: 0;
+  font-size: var(--size-normal);
+}
+
+.wrapper-boxed {
+  width: var(--width-boxed);
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font2);
+}
+
+h1 {
+  font-size: var(--size1);
+}
+
+h2 {
+  font-size: var(--size2);
+}
+
+h3 {
+  font-size: var(--size3);
+}
+
+h4 {
+  font-size: var(--size4);
+}
+
+h5 {
+  font-size: var(--size5);
+}
+
+h6 {
+  font-size: var(--size6);
 }
 
 button {

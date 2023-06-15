@@ -176,26 +176,6 @@
         "async": false
       }
     },
-    "(app-client)/./app/chi-siamo/team/filter-member.jsx": {
-      "*": {
-        "id": "(sc_client)/./app/chi-siamo/team/filter-member.jsx",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./app/chi-siamo/team/filter-member.jsx",
-        "name": "",
-        "chunks": [],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./app/chi-siamo/team/filter-member.jsx",
-        "name": "default",
-        "chunks": [],
-        "async": false
-      }
-    },
     "(app-client)/./app/chi-siamo/team/page.jsx": {
       "*": {
         "id": "(sc_client)/./app/chi-siamo/team/page.jsx",
@@ -211,26 +191,6 @@
       },
       "default": {
         "id": "(sc_client)/./app/chi-siamo/team/page.jsx",
-        "name": "default",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./app/chi-siamo/team/team-member.jsx": {
-      "*": {
-        "id": "(sc_client)/./app/chi-siamo/team/team-member.jsx",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./app/chi-siamo/team/team-member.jsx",
-        "name": "",
-        "chunks": [],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./app/chi-siamo/team/team-member.jsx",
         "name": "default",
         "chunks": [],
         "async": false
@@ -918,29 +878,12 @@
         "static/css/app/chi-siamo/team/page.css"
       ]
     },
-    "/Users/lorenzo.cavicchioli/Develop/unknownagency-website/app/chi-siamo/team/filter-member.jsx": {
-      "id": "(app-client)/./app/chi-siamo/team/filter-member.jsx",
-      "name": "*",
-      "chunks": [
-        "app/chi-siamo/team/page:static/chunks/app/chi-siamo/team/page.js"
-      ],
-      "async": false
-    },
-    "/Users/lorenzo.cavicchioli/Develop/unknownagency-website/app/chi-siamo/team/filter-member.jsx#": {
-      "id": "(app-client)/./app/chi-siamo/team/filter-member.jsx",
-      "name": "",
-      "chunks": [
-        "app/chi-siamo/team/page:static/chunks/app/chi-siamo/team/page.js"
-      ],
-      "async": false
-    },
-    "/Users/lorenzo.cavicchioli/Develop/unknownagency-website/app/chi-siamo/team/filter-member.jsx#default": {
-      "id": "(app-client)/./app/chi-siamo/team/filter-member.jsx",
+    "/Users/lorenzo.cavicchioli/Develop/unknownagency-website/app/template/template.scss#": {
+      "id": "null",
       "name": "default",
       "chunks": [
-        "app/chi-siamo/team/page:static/chunks/app/chi-siamo/team/page.js"
-      ],
-      "async": false
+        "static/css/app/chi-siamo/team/page.css"
+      ]
     },
     "/Users/lorenzo.cavicchioli/Develop/unknownagency-website/app/chi-siamo/team/page.jsx": {
       "id": "(app-client)/./app/chi-siamo/team/page.jsx",
@@ -960,30 +903,6 @@
     },
     "/Users/lorenzo.cavicchioli/Develop/unknownagency-website/app/chi-siamo/team/page.jsx#default": {
       "id": "(app-client)/./app/chi-siamo/team/page.jsx",
-      "name": "default",
-      "chunks": [
-        "app/chi-siamo/team/page:static/chunks/app/chi-siamo/team/page.js"
-      ],
-      "async": false
-    },
-    "/Users/lorenzo.cavicchioli/Develop/unknownagency-website/app/chi-siamo/team/team-member.jsx": {
-      "id": "(app-client)/./app/chi-siamo/team/team-member.jsx",
-      "name": "*",
-      "chunks": [
-        "app/chi-siamo/team/page:static/chunks/app/chi-siamo/team/page.js"
-      ],
-      "async": false
-    },
-    "/Users/lorenzo.cavicchioli/Develop/unknownagency-website/app/chi-siamo/team/team-member.jsx#": {
-      "id": "(app-client)/./app/chi-siamo/team/team-member.jsx",
-      "name": "",
-      "chunks": [
-        "app/chi-siamo/team/page:static/chunks/app/chi-siamo/team/page.js"
-      ],
-      "async": false
-    },
-    "/Users/lorenzo.cavicchioli/Develop/unknownagency-website/app/chi-siamo/team/team-member.jsx#default": {
-      "id": "(app-client)/./app/chi-siamo/team/team-member.jsx",
       "name": "default",
       "chunks": [
         "app/chi-siamo/team/page:static/chunks/app/chi-siamo/team/page.js"
