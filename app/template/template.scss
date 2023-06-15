@@ -1,6 +1,7 @@
 .wrapper-banner-cta-progetto {
-    min-height: 50vh;
+    min-height: 75vh;
     background-color: var(--dark);
     color: var(--light);
     font-size: var(--size2) !important;
+    overflow: hidden;
 }

@@ -20,12 +20,13 @@ export default function TeamMember({ member }) {
                 scrub: 5,
             },
         })
-        // gsap.fromTo(card, { y: "100%", duration: 1.5, ease: "power2.out", opacity: 0,},{ y: "0%", duration: 1.5, ease: "power2.out", opacity: 1,});
         gsap.from(imgRef.current, { rotate: 60, duration: 1})
+    
     }, []);
 
     return (
         <div className={`team-member ${member.subteam} ${member.class}`} ref={cardRef}>
+            {/* <span className="circle" id="c1"></span> */}
             <img ref={imgRef} src={member.image} width={300} height={300} alt={member.name} loading="lazy" />
             <h3 className="team-member-title">{member.name}</h3>
             <a href={member.lavoraconnoi} className={`team-member-subteam`}>{member.subteam}</a>

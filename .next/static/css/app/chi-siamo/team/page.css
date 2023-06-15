@@ -73,6 +73,10 @@ a.team-member-subteam, .filter-member > ul > li > button {
   color: inherit;
 }
 
+a.team-member-subteam {
+  background: var(--light);
+}
+
 a.team-member-position {
   font-weight: 300;
 }
@@ -131,12 +135,33 @@ a.team-member-position {
   color: var(--accent) !important;
   transition: 0.5s;
 }
+
+.circle {
+  --accent: hsla(346, 79%, 44%, 0.5);
+  background: var(--accent);
+  aspect-ratio: 1;
+  width: var(--size4);
+  height: var(--size4);
+  display: block;
+  border-radius: var(--radius-circle);
+  position: absolute;
+  z-index: 1;
+}
+.circle#c1 {
+  top: 1em;
+  left: 1em;
+}
+.circle#c2 {
+  bottom: 1em;
+  right: 1em;
+}
 /*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[13].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[13].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[2].oneOf[13].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[2].oneOf[13].use[5]!./app/template/template.scss ***!
   \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 .wrapper-banner-cta-progetto {
-  min-height: 50vh;
+  min-height: 75vh;
   background-color: var(--dark);
   color: var(--light);
   font-size: var(--size2) !important;
+  overflow: hidden;
 }

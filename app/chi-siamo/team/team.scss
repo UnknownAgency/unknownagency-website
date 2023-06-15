@@ -72,6 +72,10 @@ a.team-member-subteam, .filter-member > ul > li > button {
     color: inherit;
 }
 
+a.team-member-subteam {
+    background: var(--light);
+}
+
 a.team-member-position {
     font-weight: 300;
 }
@@ -130,4 +134,26 @@ a.team-member-position {
     background: var(--light);
     color: var(--accent) !important;
     transition: .5s;
+}
+
+.circle {
+    --accent: hsla(346, 79%, 44%, 0.5);
+    background: var(--accent);
+    aspect-ratio: 1;
+    width: var(--size4);
+    height: var(--size4);
+    display: block;
+    border-radius: var(--radius-circle);
+    position: absolute;
+    z-index: 1;
+
+    &#c1 {
+        top: 1em;
+        left: 1em;
+    }
+
+    &#c2 {
+        bottom: 1em;
+        right: 1em;
+    }
 }

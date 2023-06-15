@@ -4,31 +4,15 @@ import ScrollTrigger from "gsap/dist/ScrollTrigger";
 
 export default function FilterMember({ onFilterChanged }) {
 
-    gsap.registerPlugin(ScrollTrigger);
-
     const [activeFilter, setActiveFilter] = useState("all");
 
     const handleFilterClick = (filter) => {
         setActiveFilter(filter);
         onFilterChanged(filter);
     };
-
-    const filterWrapper = useRef(null);
-
-    useEffect(() => {
-        const filter = filterWrapper.current;
-        gsap.set(filter, { y: "200%", opacity: 0,});
-        gsap.to(filter, { y: "0%", duration: 1.5, ease: "power2.out", stagger:.5, opacity: 1,}),
-        gsap.from(filter, { scrollTrigger: {
-            trigger: filter,
-            start: "top 40%",
-            end: "top 60%",
-        },
-    })
-    }, []);
-
+    
     return (
-        <div ref={filterWrapper} className="filter-member">
+        <div className="filter-member">
             <ul>
                 <li className={`single-filter ${activeFilter === "all" ? "active" : ""}`}>
                     <button onClick={() => handleFilterClick("all")}><img src="https://digitalcanali.com/cep/team/logo-cep.png" alt="Logo Canali & Partner | Solo &" /></button>
