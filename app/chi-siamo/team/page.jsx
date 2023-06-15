@@ -4,7 +4,8 @@ import { useState } from "react";
 
 import FilterMember from "./filter-member";
 import TeamMember from "./team-member";
-import './team.css';
+import './team.scss';
+import Header from "@/app/header";
 
 const teamMembers = [
     {
@@ -34,14 +35,6 @@ const teamMembers = [
         position: 'Digital Artist',
         image: '',
         class: 'normal',
-    },
-    {
-        name: 'Unisciti al nostro TEAM',
-        subteam: 'Lavora con noi',
-        position: '',
-        image: 'https://digitalcanali.com/cep/team/logo-cep.png',
-        lavoraconnoi: '/lavora-con-noi',
-        class: 'lavora-con-noi',
     },
     {
         name: 'Ivo Colletta',
@@ -78,6 +71,63 @@ const teamMembers = [
         image: '',
         class: 'normal',
     },
+    {
+        name: 'Francesca Rondoni',
+        subteam: 'Social',
+        position: 'Stratega sul campo di battaglia',
+        image: '',
+        class: 'normal',
+    },
+    {
+        name: 'Unisciti al nostro TEAM',
+        subteam: 'Lavora con noi',
+        position: '',
+        image: 'https://digitalcanali.com/cep/team/logo-cep.png',
+        lavoraconnoi: '/lavora-con-noi',
+        class: 'lavora-con-noi',
+    },
+    {
+        name: 'Federico Bertellè',
+        subteam: 'Social',
+        position: 'SMM J.',
+        image: '',
+        class: 'normal',
+    },
+    {
+        name: 'Concetta Medugno',
+        subteam: 'Account',
+        position: 'Account J.',
+        image: '',
+        class: 'normal',
+    },
+    {
+        name: 'Federica Piacenza',
+        subteam: 'PR&Stampa',
+        position: 'Head of Unit',
+        image: '',
+        class: 'normal',
+    },
+    {
+        name: 'Beatrice',
+        subteam: 'Account',
+        position: 'Account Int.',
+        image: '',
+        class: 'normal',
+    },
+    {
+        name: 'Franco Ferrari',
+        subteam: 'Direzione',
+        position: 'Presidente',
+        image: '',
+        class: 'normal',
+    },
+    {
+        name: 'Anita Caruso',
+        subteam: 'Reception',
+        position: 'Receptionist',
+        image: '',
+        class: 'normal',
+    }
 ];
 
 export default function Team() {

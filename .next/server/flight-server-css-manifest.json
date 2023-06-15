@@ -1,0 +1,18 @@
+{
+  "cssImports": {
+    "/Users/lorenzo.cavicchioli/Develop/unknownagency-website/app/layout.jsx": [
+      "/Users/lorenzo.cavicchioli/Develop/unknownagency-website/node_modules/next/font/google/target.css?{\"path\":\"app/layout.jsx\",\"import\":\"Georama\",\"arguments\":[{\"weight\":[\"200\",\"300\",\"400\",\"600\",\"700\"],\"subsets\":[\"latin\"]}],\"variableName\":\"georama\"}",
+      "/Users/lorenzo.cavicchioli/Develop/unknownagency-website/node_modules/next/font/google/target.css?{\"path\":\"app/layout.jsx\",\"import\":\"Kulim_Park\",\"arguments\":[{\"weight\":[\"200\",\"300\",\"400\",\"600\",\"700\"],\"subsets\":[\"latin\"]}],\"variableName\":\"kulim_park\"}",
+      "/Users/lorenzo.cavicchioli/Develop/unknownagency-website/app/globals.scss"
+    ],
+    "/Users/lorenzo.cavicchioli/Develop/unknownagency-website/app/chi-siamo/team/page.jsx": [
+      "/Users/lorenzo.cavicchioli/Develop/unknownagency-website/app/chi-siamo/team/team.scss"
+    ]
+  },
+  "cssModules": {
+    "/Users/lorenzo.cavicchioli/Develop/unknownagency-website/app/chi-siamo/team/page": [
+      "/Users/lorenzo.cavicchioli/Develop/unknownagency-website/app/globals.scss",
+      "/Users/lorenzo.cavicchioli/Develop/unknownagency-website/app/chi-siamo/team/team.scss"
+    ]
+  }
+}

@@ -55,6 +55,15 @@ export default function FilterMember({ onFilterChanged }) {
                 <li className={`single-filter ${activeFilter === "Account" ? "active" : ""}`}>
                     <button onClick={() => handleFilterClick("Account")}>Account</button>
                 </li>
+                <li className={`single-filter ${activeFilter === "Social" ? "active" : ""}`}>
+                    <button onClick={() => handleFilterClick("Social")}>Social</button>
+                </li>
+                <li className={`single-filter ${activeFilter === "PR&Stampa" ? "active" : ""}`}>
+                    <button onClick={() => handleFilterClick("PR&Stampa")}>PR&Stampa</button>
+                </li>
+                <li className={`single-filter ${activeFilter === "Reception" ? "active" : ""}`}>
+                    <button onClick={() => handleFilterClick("Reception")}>Reception</button>
+                </li>
             </ul>
         </div>
     );
