@@ -26,10 +26,10 @@ const BannerCtaProgetto = () => {
                 <h4>piacerebbe</h4>
                 <h4>saperne</h4>
                 <h4>di</h4>
-                <h4>più</h4>
+                <h4>+</h4>
                 <h4>sul</h4>
                 <h4>vostro</h4>
-                <h4>progetto +</h4>
+                <h4>progetto</h4>
             </div>
         </section>
     )
