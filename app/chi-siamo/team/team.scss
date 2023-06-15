@@ -21,6 +21,11 @@ h3 {
 
 /* Filter Section */
 
+.filter-member {
+    width: 90%;
+    margin-inline: auto;
+}
+
 .filter-member > ul {
     list-style: none;
     display: flex;
@@ -46,8 +51,10 @@ li.single-filter > button:where(:active, :focus, :hover) {
 }
 
 li.single-filter > button > img {
-    height: 57px;
-    margin: -0.95em -1em -1.1em;
+    height: 55px;
+    margin: -0.95em -1em;
+    box-sizing: border-box;
+    padding: 0.75em;
 }
 
 /* Single Card */
@@ -55,7 +62,7 @@ li.single-filter > button > img {
 a.team-member-subteam, .filter-member > ul > li > button {
     font-weight: 300;
     font-size: 18px;
-    padding: 1em 2em;
+    padding: 0.5em 1.15em;
     border-radius: 100rem;
     border: 1px solid var(--light);
     width: fit-content;

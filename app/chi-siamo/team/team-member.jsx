@@ -18,11 +18,6 @@ export default function TeamMember({ member }) {
                 start: "top 75%",
                 end: "top 55%",
                 scrub: 5,
-                markers: { // Mostra a schermo dei segni che indicano l'inizio e fine dell'animazione.
-                    startColor: "blue",
-                    endColor: "blue",
-                    fontSize: "1rem",
-                },
             },
         })
         // gsap.fromTo(card, { y: "100%", duration: 1.5, ease: "power2.out", opacity: 0,},{ y: "0%", duration: 1.5, ease: "power2.out", opacity: 1,});

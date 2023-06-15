@@ -24,11 +24,6 @@ export default function FilterMember({ onFilterChanged }) {
             start: "top 40%",
             end: "top 60%",
         },
-        markers: {
-            startColor: "red",
-            endColor: "red",
-            fontSize: "1rem",
-        },
     })
     }, []);
 
