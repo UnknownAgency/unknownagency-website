@@ -37,13 +37,6 @@ const teamMembers = [
         class: 'normal',
     },
     {
-        name: 'Ivo Colletta',
-        subteam: 'Digital',
-        position: 'F1 Pilot',
-        image: '',
-        class: 'normal',
-    },
-    {
         name: 'Caroglio Luca',
         subteam: 'Direzione',
         position: 'Direttore Generale',
@@ -68,6 +61,13 @@ const teamMembers = [
         name: 'Martina Nardone',
         subteam: 'Digital',
         position: 'Web Editor',
+        image: '',
+        class: 'normal',
+    },
+    {
+        name: 'Ivo Colletta',
+        subteam: 'Digital',
+        position: 'F1 Pilot',
         image: '',
         class: 'normal',
     },
