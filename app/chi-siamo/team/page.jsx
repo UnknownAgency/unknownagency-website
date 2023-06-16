@@ -140,7 +140,7 @@ export default function Team() {
 
     return(
         <main className="root-page page-team">
-            <h1 className="title wrapper-boxed">Dream team</h1>
+            <h1 className="title wrapper-boxed">Euforia team</h1>
             <FilterMember onFilterChanged={handleFilterChanged} />
             <div className="wrap-team-members wrapper-boxed">
                 {teamMembers
