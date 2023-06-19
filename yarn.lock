@@ -254,10 +254,10 @@ react-dom@18.2.0:
     loose-envify "^1.1.0"
     scheduler "^0.23.0"
 
-react-particles@^2.10.1:
+react-tsparticles@^2.10.1:
   version "2.10.1"
-  resolved "https://registry.yarnpkg.com/react-particles/-/react-particles-2.10.1.tgz#5c34fc52809e4704ec6cbaf465a0e203c06a5499"
-  integrity sha512-7juKgk9LqMsSbfAPLbzU3kBfkmspRWrmJKbFxSpZuzXMrNizjEoQPCvGwwS1/I14w55gMz1pqzowDhB8xvmPSQ==
+  resolved "https://registry.yarnpkg.com/react-tsparticles/-/react-tsparticles-2.10.1.tgz#6015e9da0fee4f5827a9756bc7e9c3b50b4b1824"
+  integrity sha512-l/xzw9ZOV9M0WJTsZh6AE0SQ9gqZCeGpLsKdm5rr6qWk1DEOd/szbQca3DQENTjQNXXwqZZjKuoAOomnLlRvuA==
   dependencies:
     deep-eql "^4.1.3"
     tsparticles-engine "^2.10.1"

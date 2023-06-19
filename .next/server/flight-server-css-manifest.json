@@ -5,16 +5,25 @@
       "/Users/lorenzo.cavicchioli/Develop/unknownagency-website/node_modules/next/font/google/target.css?{\"path\":\"app/layout.jsx\",\"import\":\"Kulim_Park\",\"arguments\":[{\"weight\":[\"200\",\"300\",\"400\",\"600\",\"700\"],\"subsets\":[\"latin\"]}],\"variableName\":\"kulim_park\"}",
       "/Users/lorenzo.cavicchioli/Develop/unknownagency-website/app/globals.scss"
     ],
+    "/Users/lorenzo.cavicchioli/Develop/unknownagency-website/app/page.jsx": [
+      "/Users/lorenzo.cavicchioli/Develop/unknownagency-website/app/page.module.css"
+    ],
     "/Users/lorenzo.cavicchioli/Develop/unknownagency-website/app/chi-siamo/team/page.jsx": [
       "/Users/lorenzo.cavicchioli/Develop/unknownagency-website/app/chi-siamo/team/team.scss",
       "/Users/lorenzo.cavicchioli/Develop/unknownagency-website/app/template/template.scss"
     ]
   },
   "cssModules": {
+    "/Users/lorenzo.cavicchioli/Develop/unknownagency-website/app/page": [
+      "/Users/lorenzo.cavicchioli/Develop/unknownagency-website/app/globals.scss"
+    ],
     "/Users/lorenzo.cavicchioli/Develop/unknownagency-website/app/chi-siamo/team/page": [
       "/Users/lorenzo.cavicchioli/Develop/unknownagency-website/app/globals.scss",
       "/Users/lorenzo.cavicchioli/Develop/unknownagency-website/app/chi-siamo/team/team.scss",
       "/Users/lorenzo.cavicchioli/Develop/unknownagency-website/app/template/template.scss"
+    ],
+    "/Users/lorenzo.cavicchioli/Develop/unknownagency-website/app/test-particles/page": [
+      "/Users/lorenzo.cavicchioli/Develop/unknownagency-website/app/globals.scss"
     ]
   }
 }
